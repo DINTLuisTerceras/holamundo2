@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="saludarButton" Content="Saludar" HorizontalAlignment="Left" Margin="572,216,0,0" VerticalAlignment="Top" Width="145" Height="37" Click="saludarButton_Click" FontSize="18"/>
+        <Button x:Name="saludarButton" Content="Saludar" HorizontalAlignment="Left" Margin="543,292,0,0" VerticalAlignment="Top" Width="145" Height="37" Click="saludarButton_Click" FontSize="18"/>
         <TextBox x:Name="nombreTextBox" HorizontalAlignment="Left" Height="37" Margin="214,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="276" TextChanged="TextBox_TextChanged" FontSize="22"/>
         <Label x:Name="nombreLabel" Content="Hola Mundo !" HorizontalAlignment="Left" Margin="150,88,0,0" VerticalAlignment="Top" Height="90" Width="610" FontFamily="Segoe UI Black" FontSize="58" Background="White" Foreground="Red" RenderTransformOrigin="0.5,0.5"/>
         <Label Content="Nombre: " HorizontalAlignment="Left" Margin="214,183,0,0" VerticalAlignment="Top" Height="33" Width="87" FontSize="18"/>
